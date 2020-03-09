@@ -102,11 +102,11 @@ class Home extends Component {
               <div className={'fz14 c666 reamke'}>客服微信</div>
             </div>
             <div className={'col code'}>
-              <img alt="公众号" src="https://ljkj-temp.oss-cn-hangzhou.aliyuncs.com/heartisan/toolkit/app.jpg" className={'img'} />
+              <img alt="公众号" src="https://ljkj-web.oss-cn-hangzhou.aliyuncs.com/heartisanMobile/advisory/public.jpg" className={'img'} />
               <div className={'fz14 c666 reamke'}>平台公众号</div>
             </div>
             <div className={'col code'}>
-              <img alt="App" src="https://ljkj-temp.oss-cn-hangzhou.aliyuncs.com/heartisan/toolkit/app.jpg" className={'img'} />
+              <img alt="App" src="https://ljkj-web.oss-cn-hangzhou.aliyuncs.com/heartisanMobile/advisory/app.jpg" className={'img'} />
               <div className={'fz14 c666 reamke'}>平台软件</div>
             </div>
           </div>

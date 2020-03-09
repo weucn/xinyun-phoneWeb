@@ -7,21 +7,16 @@ import Footer from '../components/Footer';
 import { Icon } from 'antd';
 import 'swiper/css/swiper.min.css';
 
-const copyright = (
-  <a className="cursor-pointer cfff fz14" href="http://www.beian.miit.gov.cn">
-    网站备案：浙ICP备17044703号-6
-  </a>
-);
 const Layout = props => (
   <Fragment>
     <Head>
-      <title>力聚科技</title>
+      <title>芯云软装</title>
       <meta http-equiv="Content-Type" content="text/html;charset=utf-8"></meta>
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"></meta>
       <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport" />
       <link rel="shortcut icon" href="./static/logo1.ico" />
       <meta name="author" content="绍兴力聚科技信息有限公司"></meta>
-      <meta name="keywords" content="力聚,力聚科技,LJKJ,ljkj,软装家居,软装平台,家居家具,设计师共享服务网络,海量软装供应链入驻平台。" />
+      <meta name="keywords" content="芯云,芯云软装,Heartisan,heartisan,软装云平台,设计师共享服务网络,海量软装供应链入驻平台。" />
       <meta name="description" content="提供窗帘墙布背景,挂画,地毯,家纺,床上用品,小布艺,沙发垫,桌布,餐垫家居饰品,花瓶,干花,花艺,家具等优质供应链。同时,软装设计师创业者共享本地服务体验中心,配套上门设计服务,享有厂家与商家双重保障。"></meta>
       <link
         rel="stylesheet"
