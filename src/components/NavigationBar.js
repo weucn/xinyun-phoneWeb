@@ -4,7 +4,7 @@ export default function NavigationBar() {
   return (
     <div className={'row bar'}>
       <nav className={'row-sa nav'}>
-        <img alt={'logo'} src="https://ljkj-web.oss-cn-hangzhou.aliyuncs.com/heartisanMobile/logo.png" />
+        <img alt={'logo'} src="https://ljkj-web.oss-cn-hangzhou.aliyuncs.com/heartisanMobile/logo.png"  className={'logo'}/>
         <img alt={'menu'} src="https://ljkj-web.oss-cn-hangzhou.aliyuncs.com/heartisanMobile/menu.png" />
       </nav>
       <style jsx>{`
@@ -24,6 +24,11 @@ export default function NavigationBar() {
         padding:10px 16px;
         margin:0
       }   
+
+      .logo{
+        width:80px;
+        height: 25px;
+      }
       
       .w100vw{
         width:100vw;

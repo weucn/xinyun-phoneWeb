@@ -25,7 +25,19 @@ class Home extends Component {
   render() {
     return (
       <Layout>
-        <img alt={'banner'} src="https://ljkj-web.oss-cn-hangzhou.aliyuncs.com/heartisanMobile/banner.png" className={'w100vw margin-bottom20'} />
+        <div style={{ height: 600 }}>
+          <img alt={'banner'} src="https://ljkj-web.oss-cn-hangzhou.aliyuncs.com/heartisanMobile/banner.jpg" className={'w100vw margin-bottom20 banner'} />
+          <div className={'banner-title cfff w100vw col-t'}>
+            <div className={'word fz22'}>SOFT CLOUD CORE ECOLOGY</div>
+            <div className={'fz22 word'}>软装云·芯生态</div>
+            <div className={'fz14 col'}>
+              <div>芯云软装是一家软装供应链平台</div>
+              <div>以信息技术为核心，整合行业上游</div>
+              <div>供应链赋能下游经销商</div>
+              <div>为b端商家高效全面的服务C端客户提供支持</div>
+            </div>
+          </div>
+        </div>
 
         <div className={'col product margin-bottom20 bg-color padding15'}>
           <div className={'fz24 c333'}>平台产品</div>
@@ -36,9 +48,34 @@ class Home extends Component {
         <div className={'col margin-bottom20 bg-color padding15'}>
           <div className={'fz24 c333'}>平台科技</div>
           <div className={'fz16 c666 margin-bottom22'}>platform of science and technology</div>
-          <img alt={'technology1 padding15'} src="https://ljkj-web.oss-cn-hangzhou.aliyuncs.com/heartisanMobile/technology/technology1.png" />
-          <img alt={'technology2 padding15'} src="https://ljkj-web.oss-cn-hangzhou.aliyuncs.com/heartisanMobile/technology/technology3.png" />
-          <img alt={'technology3 padding15'} src="https://ljkj-web.oss-cn-hangzhou.aliyuncs.com/heartisanMobile/technology/technology2.png" />
+          <div className={'padding15'}>
+            <img className={'science-img'} alt={'technology1'} src="https://ljkj-web.oss-cn-hangzhou.aliyuncs.com/heartisanMobile/technology/technology1.png" />
+            <div className={'science-title1 cfff'}>
+              <div className={'fz16'}>IT助力新转型</div>
+              <div className={'fz12'}>商家专属APP</div>
+              <div className={'fz12'}>客户专属小程序</div>
+              <div className={'fz12'}>模型设计</div>
+              <div className={'fz12'}>客户管理</div>
+            </div>
+          </div>
+          <div className={'padding15'}>
+            <img className={'science-img'} alt={'technology2'} src="https://ljkj-web.oss-cn-hangzhou.aliyuncs.com/heartisanMobile/technology/technology3.png" />
+            <div className={'science-title2 cfff'}>
+              <div className={'fz16'}>数据管路</div>
+              <div className={'fz12'}>多端/前端</div>
+              <div className={'fz12'}>数字化系统</div>
+              <div className={'fz12'}>中台/管理</div>
+              <div className={'fz12'}>云服务</div>
+            </div>
+          </div>
+          <div className={'padding15'}>
+            <img className={'science-img'} alt={'technology3'} src="https://ljkj-web.oss-cn-hangzhou.aliyuncs.com/heartisanMobile/technology/technology2.png" />
+            <div className={'science-title3 cfff'}>
+              <div className={'fz16'}>专属APP服务</div>
+              <div className={'fz12'}>平板模式</div>
+              <div className={'fz12'}>手机模式</div>
+            </div>
+          </div>
         </div>
 
         <div className={'col margin-bottom20 bg-color padding15'}>
@@ -141,6 +178,40 @@ class Home extends Component {
           padding:15px 0;
         }
 
+        .banner{
+          position: absolute;
+        }
+
+        .banner-title{
+          position: absolute;
+          padding:50vw 0;
+        }
+
+        .word{
+          margin-bottom:54px;
+        }
+
+        .science-img{
+          position: relative;
+          width: 90vw;
+        }
+
+        .science-title1{
+          position: absolute;
+          top:18%;
+          left:10%;
+        }
+        .science-title2{
+          position: absolute;
+          top:47%;
+          right:10%;
+        }
+        .science-title3{
+          position: absolute;
+          top:77%;
+          left:10%;
+        }
+
         .advisory-title{
           position: absolute;
         }
@@ -148,7 +219,6 @@ class Home extends Component {
         .swiper-container {
           width: 100vw;
           height: 220px;
-          overflow: hidden;
         }
         #swiper-container {
           --swiper-pagination-color: #9F9D9D;

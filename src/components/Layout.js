@@ -24,20 +24,7 @@ const Layout = props => (
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous"
       />
-      <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css"></link>
-      <script>
-        {
-          `
-          var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?2fa35561baf0d8ca0cb7da8849347671";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
-          `
-        }
-      </script>
+      <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css" />
     </Head>
     <NavigationBar />
     <div className="layout-container no-select">
@@ -258,6 +245,10 @@ const Layout = props => (
 
       .fz36 {
         font-size: 36px;
+      }
+
+      .fz40 {
+        font-size: 40px;
       }
 
       .fz48 {
