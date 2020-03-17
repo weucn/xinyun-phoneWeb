@@ -7,6 +7,12 @@ import Footer from '../components/Footer';
 import { Icon } from 'antd';
 import 'swiper/css/swiper.min.css';
 
+const copyright = (
+  <a className="cursor-pointer cfff fz14" href="http://www.beian.miit.gov.cn">
+    网站备案：浙ICP备17044703号-6
+  </a>
+);
+
 const Layout = props => (
   <Fragment>
     <Head>
@@ -31,9 +37,9 @@ const Layout = props => (
       {props.children}
     </div>
     <Footer />
-    {/* <div className={'row bg-c000 content-padding'}>
+    <div className={'row bg-c000 content-padding'}>
       {copyright}
-    </div> */}
+    </div>
     <style global jsx>{`
       body {
         margin: 0px;
